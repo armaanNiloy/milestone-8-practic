@@ -17,10 +17,10 @@ const NavBar = () => {
         <nav>
             <div className="md:hidden text-2xl" onClick={() => setOpen(!true)}>
                 {
-                    open === true? 
-                    <RiCloseFill></RiCloseFill>
-                    : 
-                    <RiMenu2Fill></RiMenu2Fill>
+                    open === true ?
+                        <RiMenu2Fill></RiMenu2Fill>
+                        :
+                        <RiCloseFill></RiCloseFill>
                 }
             </div>
             <ul className="md: flex mr-4">
